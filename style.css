@@ -1,0 +1,44 @@
+.heading {
+    width: 100%;
+   margin-top: 0px;
+   font-size:24 ;
+    box-shadow: 5px 5px 20px black;
+}
+.note {
+    font-size : 16px;
+    color: black;
+    
+}
+.footer {
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    color: white;
+    line-height:3 ;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+body {
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {border: 5px solid red;}
+    25% {border: 5px solid orange;}
+    50% {border: 5px solid blue;}
+    75% {border: 5px solid green;}
+    100% {border: 5px solid yellow;}
+   
+    
+}
+canvas {
+    
+    border:4px ridge yellow;
+    margin-left: 300px;
+}
+video {
+    margin-left: 100px;
+}
